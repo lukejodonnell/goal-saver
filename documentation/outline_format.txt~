@@ -1,0 +1,20 @@
+This file is documentation on how to make the text file that this program will use to store goal data.  I know, I should be using a database or something.  This is also my first time ever trying to document my work.  this will be rough, but all I need to accomplish the MVP (Minimum Viable Product).
+
+The text file will take the form of an indented outline.  The goal is for a human to be able to (however slowly) read the outline without the aid of a computer.
+
+The first line will be a description of the file (file version, anything else I think of later) this will help if I completely change formats later.
+
+Here is what I am thinking for the opening lines.
+
+This file is a saved log of goals and tasks for use in the goal-saver project that can be found at https://github.com/lukejodonnell/goal-saver.git
+This log is named <log_name> and is formatted for version <version_number>
+
+The format for goals/lines in the outline:
+    - a "-" means not done yet
+    - a "x" mean completed
+    - goal name, followed by  description, due date, importance, estimates hours to complete, estimated hours spent
+        - goal name - a short name, title if you will
+	- description - a longer, one to two sentence desription
+	- due date - in standard iso format yyyy-mm-ddThh:mm:ss (example, 1:23 pm on July 4th 2022 woul be 2022-07-04T13:23:00)
+	- importance - how important it is that this be completed, not a measure of how hard it will be
+	- estimated hour to complete - ehtc

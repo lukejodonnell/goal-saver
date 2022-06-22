@@ -1,0 +1,44 @@
+This file is documentation on how to make the text file that this program will use to store goal data.  I know, I should be using a database or something.  This is also my first time ever trying to document my work.  this will be rough, but all I need to accomplish the MVP (Minimum Viable Product).
+
+The text file will take the form of an indented outline.  The goal is for a human to be able to (however slowly) read the outline without the aid of a computer.
+
+The first line will be a description of the file (file version, anything else I think of later) this will help if I completely change formats later.
+
+Here is what I am thinking for the opening lines.
+
+This file is a saved log of goals and tasks for use in the goal-saver project that can be found at https://github.com/lukejodonnell/goal-saver.git
+This log is named <log_name> and is formatted for version <version_number>
+
+The format for goals/lines in the outline:
+    - a "-" means not done yet
+    - a "x" mean completed
+    - goal name, followed by  description, due date, importance, estimates hours to complete, estimated hours spent
+        - goal name - a short name, title if you will
+	- description - a longer, one to two sentence description
+	- due date - in standard ISO format yyyy-mm-ddThh:mm:ss (example, 1:23 pm on July 4th 2022 would be 2022-07-04T13:23:00)
+	- importance - how important it is that this be completed, not a measure of how hard it will be, scale of 1 to 10 for now
+	- estimated hour to complete - ehtc, a count in hours of how long that might take (consider doing minutes instead?)
+	- estimated hours spent - how long I have worked on this so far
+    - four spaces to indent
+
+
+Example for this project:
+
+
+This file is a saved log of goals and tasks for use in the goal-saver project that can be found at https://github.com/lukejodonnell/goal-saver.git
+This log is named lukes_first_log and is formatted for version 0.0.1
+
+- Complete goal-saver project, once I finish this I will be much better at doing things, 2022-09-22, 10, 120, 2
+    - Make log format, this project will need to have a format to store goals, 2022-06-24, 10, 
+        x start first draft, this will be the first draft of the format
+
+
+
+
+
+
+
+
+
+Notes because this is a work in progress
+     not every task needs hours worked because if it has sub-tasks, they can store the hours worked
